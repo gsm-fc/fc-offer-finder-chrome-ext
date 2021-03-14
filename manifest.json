@@ -1,0 +1,17 @@
+{
+  "name": "Freecharge Offer Finder",
+  "description": "An extension that notifies you of offers from freecharge based on the site you visit",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "static/fcicon.png",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://jsonkeeper.com/"],
+  "permissions": [
+    "tabs"
+  ]
+}
